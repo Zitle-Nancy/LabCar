@@ -18,9 +18,9 @@
 			</li>
 		</ul>
 		<ul class="nav nav-pills navbar-right">
-			<li class="lista-right"><a href="#">Viaja</a></li>
-			<li class="lista-right"><a href="#">Conduce</a></li>
-			<li class="lista-right"><a href="#">Inicia sesiòn</a></li> 	
+			<li class="lista-right"><a href="#viaja">Viaja</a></li>
+			<li class="lista-right"><a href="#conduce">Conduce</a></li>
+			<li class="lista-right"><a href="#" data-toggle="modal" data-target="#myModal">Inicia sesiòn</a></li> 	
 		</ul>    
 	  </div>
 	</nav>
@@ -28,7 +28,7 @@
 <!-- fin seccion menu -->
 
 <!-- parte 1 -->
-<div class="container-fluid fondo-taxi">
+<div class="container-fluid fondo-taxi" id="viaja">
 	<div class="row">
 		<div class="col-md-8">
 		</div>
@@ -67,7 +67,7 @@
 </div>
 <!-- fin parte 2 -->
 <!-- inicio parte 3 -->
-<div class="container-fluid fondo-3">
+<div class="container-fluid fondo-3" id="conduce">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-8">
 			<div class="cuadro-3">
@@ -163,6 +163,58 @@
 	
 </footer>
 <!-- fin footer -->
+
+
+<!-- prueba modal -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal modal-verde" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-verde">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <img class="imagen-user" src="img/user.png">
+      </div>
+      <div class="modal-body">
+		<form class="form-horizontal">
+		  <div class="form-group">
+		      <div class="glyphicon glyphicon-user col-sm-1">
+		      </div>
+		      <div class="col-sm-5"><input type="text" class="form-control" id="exampleInputAmount" placeholder="usuario"></div>
+		  </div>
+		  <div class="form-group">
+		      <div class="glyphicon glyphicon-lock col-sm-1">
+		      </div>
+		      <div class="col-sm-5"><input type="text" class="form-control" id="exampleInputAmount" placeholder="Password"></div>
+		  </div>
+		  <button class="btn btn-warning btn-lg btn-ruta">Login</button>
+		</form>
+			<!-- <form class="form-horizontal ">
+				<div class="form-group ">
+					<div class="glyphicon glyphicon-user">
+		      </div>
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su punto de partida">
+					</div>
+				</div>
+				<div class="form-group ">
+					<div class="glyphicon glyphicon-lock">
+		      </div>
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su destino" >
+					</div>
+				</div>
+				
+			</form> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin modal -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
