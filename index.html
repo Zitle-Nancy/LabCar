@@ -4,8 +4,218 @@
 	<title>Labcar</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/main.css">
 </head>
 <body>
+<!-- seccion menu -->
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+		<ul class="nav navbar-nav">
+			<li>					
+				<img alt="Brand" src="img/logoForma.png">				
+			</li>
+		</ul>
+		<ul class="nav nav-pills navbar-right">
+			<li class="lista-right"><a href="#viaja">Viaja</a></li>
+			<li class="lista-right"><a href="#conduce">Conduce</a></li>
+			<li class="lista-right"><a href="#" data-toggle="modal" data-target="#myModal">Inicia sesiòn</a></li> 	
+		</ul>    
+	  </div>
+	</nav>
+</header>
+<!-- fin seccion menu -->
 
+<!-- parte 1 -->
+<div class="container-fluid fondo-taxi" id="viaja">
+	<div class="row">
+		<div class="col-md-8">
+		</div>
+		<div class="seccion-registrate col-md-4">
+			<h1 class="texto-1">Disfruta del viaje <br>Eres dueño de tu tiempo</h1>
+			<p class="texto-1">Viaja con <img class="logo-blanco" src="img/logoBlanco.png"></p>
+			<button class="btn btn-default texto-2">REGÌSTRATE</button>
+			<div class="linea">
+			</div>
+			<p class="texto-3"> O bien</p>
+			<button class="btn btn-default texto-2">Convièrtete en un conductor</button>
+		</div>	
+	</div>	
+</div>
+<!-- fin parte 1 -->
+<!-- parte 2 -->
+<div class="container-fluid fondo-amarillo" >
+	<div class="row">
+		<div class=" col-md-10">
+			<div class="seccion-3">
+				<div class="col-md-6 col-xs-5 imagen-telefono">
+					<img  src="img/iPhone6Plus.png" class="img-responsive">
+				</div>
+				<div class="col-md-4 col-xs-5 seccion-descripcion">
+					<h3 class="texto-1">Descarga la nueva App</h3>
+					<p class="texto-descripcion">
+						La versiòn actualizada de LabCar està llena de nuevas funciones para llegar a donde quieras aùn màs fàcil y ràpido.
+					</p>
+					<p class="texto-descripcion">
+						Con solo tocar un botòn, un auto llega justo a tu ubicaciòn. Sùbete y no te preocupes: tu conductor sabe exactamente a dònde ir.
+					</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<!-- fin parte 2 -->
+<!-- inicio parte 3 -->
+<div class="container-fluid fondo-3" id="conduce">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-8">
+			<div class="cuadro-3">
+				<div class="texto-conduce">
+					<h3 class="texto-1">Conduce cuando quieras</h3>
+					<p class="texto-blanco">
+						LabCar es una opciòn flexible para alcanzar<br>tus metas financieras
+					</p>
+					<button class="btn btn-warning btn-lg">Conviertete en conductor</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- fin parte 3 -->
+<!-- inicio parte 4 -->
+<div class="container-fluid fondo-amarillo">
+	<div class="row">
+		<div class="col-md-6 formulario-ruta">
+			<h3 class="texto-1">Tarìfas</h3>
+			<p class="texto-blanco">Consulta las tarifas LabCar aquì</p>
+			<form class="form-horizontal ">
+				<div class="form-group ">
+					<img src="img/shape.png" class="col-sm-1">
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su punto de partida">
+					</div>
+				</div>
+				<div class="form-group ">
+					<img src="img/shape2.png" class="col-sm-1">
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su destino" >
+					</div>
+				</div>
+				<button class="btn btn-default btn-sm btn-ruta">¡TRAZAR RUTA!</button>
+			</form>
+		</div>
+
+		<div class="col-md-6 ">
+			<div class="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31776309.81395195!2d-69.8153350259697!3d-13.53902255978081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1ses!2smx!4v1495566466921" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- fin parte 4 -->
+<!-- footer -->
+<footer>
+	<div class="row">
+		<div class="col-xs-4 ">
+			<img class="imagen-logoB" src="img/logoBlanco.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="container contenedor">
+			<div class="col-xs-3">
+				<img class="img-redes img-responsive" src="img/redes.png">
+			</div>
+			<div class="col-xs-3">
+				<ul>
+					<li class="lista">Viaja</li>
+					<li class="lista">Conduce</li>
+					<li class="lista">Ciudades</li>
+					<li class="lista">Ciudades</li>
+					<li class="lista">Entregas</li>
+					<li class="lista">Como funciona?</li>
+					<li class="lista">Paises</li>
+					<li class="lista">Seguridad</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-3">
+				<ul>
+					<li class="lista">Oportunidades</li>
+					<li class="lista">Nuestra historia</li>
+					<li class="lista">API de LabCar</li>
+					<li class="lista">Eventos</li>
+					<li class="lista">Desarrolladores</li>
+					<li class="lista">Servicios</li>
+					<li class="lista">Laboratoria</li>
+					<li class="lista">Coders</li>
+				</ul>
+			</div>
+
+			<div class="col-xs-3 img-app">
+				<img  class="img-responsive" src="img/appstore.png">
+				<img class="img-responsive" src="img/enBadgeWebGeneric.png">
+			</div>
+		</div>
+	</div>
+	
+		<p class="texto-footer">&copy;2017 LabCar technologies Inc. </p>
+	
+</footer>
+<!-- fin footer -->
+
+
+<!-- prueba modal -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal modal-verde" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-verde">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <img class="imagen-user" src="img/user.png">
+      </div>
+      <div class="modal-body">
+		<form class="form-horizontal">
+		  <div class="form-group">
+		      <div class="glyphicon glyphicon-user col-sm-1">
+		      </div>
+		      <div class="col-sm-5"><input type="text" class="form-control" id="exampleInputAmount" placeholder="usuario"></div>
+		  </div>
+		  <div class="form-group">
+		      <div class="glyphicon glyphicon-lock col-sm-1">
+		      </div>
+		      <div class="col-sm-5"><input type="text" class="form-control" id="exampleInputAmount" placeholder="Password"></div>
+		  </div>
+		  <button class="btn btn-warning btn-lg btn-ruta">Login</button>
+		</form>
+			<!-- <form class="form-horizontal ">
+				<div class="form-group ">
+					<div class="glyphicon glyphicon-user">
+		      </div>
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su punto de partida">
+					</div>
+				</div>
+				<div class="form-group ">
+					<div class="glyphicon glyphicon-lock">
+		      </div>
+					<div class="col-sm-5">
+						<input type="text" class="form-control ruta" placeholder="Ingrese su destino" >
+					</div>
+				</div>
+				
+			</form> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin modal -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
