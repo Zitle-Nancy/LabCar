@@ -1,0 +1,113 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	/*position: fixed;*/
+	width: 100%;
+	/*padding-: 5%;*/
+}
+.linea{
+	border-bottom: solid 1px white;
+	margin-top: 3%;
+}
+.fondo-taxi{
+	margin-top: -18px;
+	background-image: url('../img/taxi1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	height: 600px;
+}
+.seccion-registrate {
+	margin-top: 8%;
+	background:#e8b706;
+	width: 100%:
+	height:100px;
+	padding: 3%;
+}
+.texto-blanco{
+	color: white;
+}
+.texto-1{
+	/*font-size: 20px;*/
+	color: white;
+	font-weight: bolder;
+}
+.texto-2{
+	font-weight: bold;
+}
+.texto-3{
+	position: relative;
+	display: block;
+	width: 50%;
+	color: white;
+	background: #e8b706;
+	text-align: center;
+	margin-left: 26%;
+	margin-top: -10px;
+}
+.logo-blanco{
+	width: 25%;
+	height: 35px;
+	padding: 2%;
+}
+/*fin paarte 1*/
+
+/*parte 2*/
+.fondo-amarillo{
+	background: #e8b706;
+	height: 500px;
+}
+.seccion-3{
+	border:solid 1px white;
+	margin-left: -25px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width:100%;
+	height: 400px;
+}
+.seccion-descripcion{
+	margin-top: 5%;
+}
+.texto-descripcion{
+	margin-top: 3%;
+	font-family: arial;
+	font-size:18px;
+	color: white;
+	text-align: justify;
+}
+.imagen-telefono{
+	text-align: center;
+	padding: 5%;
+}
+.imagen-telefono > img{
+	height: 300px;	
+}
+/*fin parte 2*/
+
+/*parte 3}*/
+.fondo-3{
+	background-image: url("../img/conduce.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	height: 400px;
+}
+.cuadro-3{
+	margin: 0;
+	background: #000;	
+	opacity: .8;
+	width: 100%;
+	height: auto;
+}
+.texto-conduce{
+	padding: 10%;
+	color: white;
+
+	/*padding-left: 8%;*/
+}
+/*fin parte 3*/
