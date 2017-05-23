@@ -4,10 +4,15 @@ body{
 	width: 100%;
 	height: 100%;
 }
-.menu{
-	/*position: fixed;*/
+iframe{
 	width: 100%;
-	/*padding-: 5%;*/
+	height: 380px;
+}
+.lista{
+	list-style: none;
+	color: white;
+	padding: 3%;
+
 }
 .linea{
 	border-bottom: solid 1px white;
@@ -52,7 +57,7 @@ body{
 }
 .logo-blanco{
 	width: 25%;
-	height: 35px;
+	height: 35%;
 	padding: 2%;
 }
 /*fin paarte 1*/
@@ -107,7 +112,48 @@ body{
 .texto-conduce{
 	padding: 10%;
 	color: white;
-
-	/*padding-left: 8%;*/
 }
 /*fin parte 3*/
+
+/*parte 4*/
+.formulario-ruta{
+	padding-left: 10%;
+	padding-top: 6%;
+}
+.ruta{
+	background-color: transparent;
+}
+.btn-ruta{
+	left: 5%;
+}
+.mapa{
+	margin-top:5%;
+	border: solid white 2px;
+	width: 70%;
+	height: 400px;
+	padding:10px; 
+}
+
+/*fin parte 4*/
+footer{
+	background: #262625;
+}
+.imagen-logoB{
+	margin-top: 10%;
+	padding-left: 20%;
+}
+.contenedor{
+	border-bottom: solid 1px white; 
+	border-top: solid 1px white;
+	height: 300px;
+	margin-bottom: 5%;
+}
+.img-redes{
+	margin-top: 100%;
+}
+.img-app{
+	margin-top: 15%;
+}
+/*footer*/
+
+/*fin footer*/
