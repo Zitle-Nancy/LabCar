@@ -81,17 +81,19 @@ iframe{
 }
 .seccion-descripcion{
 	margin-top: 5%;
+	height: auto;
 }
 .texto-descripcion{
 	margin-top: 3%;
 	font-family: arial;
-	font-size:18px;
 	color: white;
 	text-align: justify;
+	/*font-size:3vh;*/
 }
 .imagen-telefono{
 	text-align: center;
-	padding: 5%;
+	padding-top: 5%;
+	/*border:solid 1px blue;*/
 }
 .imagen-telefono > img{
 	height: 300px;	
