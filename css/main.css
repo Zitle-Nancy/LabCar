@@ -18,8 +18,9 @@ iframe{
 
 }
 .linea{
-	border-bottom: solid 1px white;
+	border-top:solid 1px white;
 	margin-top: 3%;
+
 }
 .fondo-taxi{
 	margin-top: -18px;
@@ -50,13 +51,13 @@ iframe{
 }
 .texto-3{
 	position: relative;
-	display: block;
-	width: 50%;
+	display: inline;
+	margin-left:35%;
 	color: white;
 	background: #e8b706;
-	text-align: center;
-	margin-left: 26%;
-	margin-top: -10px;
+	top: -10px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .logo-blanco{
 	width: 25%;
@@ -173,6 +174,3 @@ footer{
 .modal-verde{
 	background:#62d1b1;
 }
-/*.formulario-centro{
-	margin-left: 50px;
-}*/
